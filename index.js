@@ -83,7 +83,7 @@ function getToken(toZipCode,pkgSize,pkgWeight,intentRequest, callback){
         host: 'foundation-dev.horizon.pitneycloud.com',
         path: '/api/v1/user/auth/guam?clientid=2856109e-ca67-4aa8-bf34-8877bc0502e9&Content-Type=application%2Fjson',
         method: 'POST',
-        body: '{"username": "gb.test031301@mailinator.com","password": "PbTest123$"}',
+        body: '{"username": "gb.test031301@mailinator.com","password": "*******"}',
         headers: {'Authorization': 'Basic cWEtdXNlcjoxcTJ3M2U0cg=='}
     };
 
