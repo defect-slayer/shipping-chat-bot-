@@ -98,7 +98,7 @@ function getToken(toZipCode,pkgSize,pkgWeight,intentRequest, callback){
         
     });
     
-    reqPost.write('{"username": "gb.test031301@mailinator.com","password": "PbTest123$"}');
+    reqPost.write('{"username": "gb.test031301@mailinator.com","password": "*********"}');
     reqPost.end();
 }
 
